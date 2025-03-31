@@ -1,5 +1,5 @@
 # requirements.txt
-python==3.10.11  # Explicit Python version (recommended for reproducibility)
+python==3.10.12  # Explicit Python version (recommended for reproducibility)
 
 # Core dependencies
 opencv-python==4.8.0.76
