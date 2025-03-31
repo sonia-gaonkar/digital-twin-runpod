@@ -1,21 +1,13 @@
-# Core Framework
-python==3.10.13  # Last stable 3.10.x release
-
-# Computer Vision
-opencv-python==4.8.1.78  # Last version with full MediaPipe compatibility
-mediapipe==0.10.9  # Latest stable version for Python 3.10
-
-# 3D Processing
-open3d==0.17.0  # Last version supporting Python 3.10
-pyrender==0.1.45
-trimesh==3.23.5
-
-# PyTorch Stack (CUDA 11.8)
+# requirements.txt
+opencv-python==4.8.1.78
+mediapipe==0.10.9
+open3d==0.17.0
+numpy==1.24.3
 torch==2.0.1
 torchvision==0.15.2
 torchaudio==2.0.2
---extra-index-url https://download.pytorch.org/whl/cu118  # Critical for CUDA
-
-# Web Server
+--extra-index-url https://download.pytorch.org/whl/cu118
+pyrender==0.1.45
+trimesh==3.23.5
 fastapi==0.95.2
 uvicorn==0.22.0
