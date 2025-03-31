@@ -1,0 +1,8 @@
+cameras:
+  camera1:
+    matrix: [ [1000, 0, 960], [0, 1000, 540], [0, 0, 1] ]
+    distortion: [0.1, -0.2, 0, 0]
+  camera2:
+    matrix: [ [1000, 0, 960], [0, 1000, 540], [0, 0, 1] ]
+    distortion: [0.1, -0.2, 0, 0]
+baseline: 0.5
