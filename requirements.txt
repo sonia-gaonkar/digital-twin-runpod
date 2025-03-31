@@ -1,6 +1,6 @@
 # Core dependencies
 opencv-python==4.8.0.76
-mediapipe==0.10.0
+mediapipe==0.10.9
 open3d==0.17.0
 numpy==1.24.3
 torch==2.0.1+cu118  # CUDA 11.8 version
